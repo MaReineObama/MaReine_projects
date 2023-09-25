@@ -1,0 +1,116 @@
+{
+    "rsid" : "[Report_suite_id]",
+    "globalFilters":[
+      {
+        "type":"dateRange",
+        "dateRange" : "2023-08-09T00:00:00.000/2023-09-20T23:59:59.999"
+      }
+    ],
+
+    "metricContainer":{
+    "metrics" : [ 
+      {
+        "columnId": "1",
+        "id" : "bounces"
+    }, 
+    {
+      "columnId": "2",
+      "id" : "pageviews"
+    }, 
+    {
+      "columnId": "3",
+      "id" : "uniquevisitors"
+    }, 
+    {
+      "columnId": "4",
+      "id" : "visits"
+    }, 
+    {
+      "columnId": "5",
+      "id" : "cm1001_5"
+    }, 
+    {
+      "columnId": "6",
+      "id" : "cm1001_6"
+    }, 
+    {
+      "columnId": "7",
+      "id" : "cm1001_7"
+    }, 
+    {
+      "columnId": "8",
+      "id" : "cm1001_8"
+    }, 
+    {
+      "columnId": "9",
+      "id" : "cm1001_9"
+    }, 
+    {
+      "columnId": "10",
+      "id" : "cm1001_10"
+    }, 
+    {"columnId": "11",
+      "id" : "cm1001_11"
+    }, 
+    {
+      "columnId": "12",
+      "id" : "cm1001_12"
+    }, 
+    {
+      "columnId": "13",
+      "id" : "cm1001_13"
+    }, 
+    {
+      "columnId": "14",
+      "id" : "cm1001_14"
+    }, 
+    {
+      "columnId": "15",
+      "id" : "cm1001_15"
+    }, 
+    {
+      "columnId": "16",
+      "id" : "cm1001_16"
+    }, 
+    {
+      "columnId": "17",
+      "id" : "cm1001_17"
+    }, 
+    {
+      "columnId": "18",
+      "id" : "cm1001_18"
+    }, 
+    {"columnId": "19",
+      "id" : "cm1001_19"
+    }, 
+    {
+      "columnId": "20",
+      "id" : "cm1001_20"
+    }, 
+    {
+      "columnId": "21",
+      "id" : "cm1001_21"
+    }, 
+    {
+      "columnId": "22",
+      "id" : "cm1001_22"
+    }, 
+    {
+      "columnId": "23",
+      "id" : "cm1001_23"
+    } 
+  ]
+    },
+    "dimension": "variables/daterangeday",
+    "elements" : [ {
+      "id" : "mobiledevicetype"
+    }, 
+    {
+      "id" : "evar6", "classification":"(c) Nameplate", "top":"100"
+    }
+  ],
+
+    "settings": {
+      "dimensionSort": "asc"
+    }
+  }
